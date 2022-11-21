@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(218, 22%, 67%);
+}
+main{
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-size: 16px;
+}
+.bigSection{
+    width: 50vw;
+    background-color: white;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: hsl(218, 22%, 67%);
+}
+.bsHeading{
+    color: hsl(179, 62%, 43%);
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.bsSubeading{
+    color: hsl(71, 73%, 54%);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.bsData{
+    font-size: 18px;
+    line-height: 30px;
+}
+.smallSection{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    color: hsl(204, 43%, 93%);
+}
+.smallSection1{
+    width: 50%;
+    padding: 30px;
+    background-color: hsl(179, 62%, 33%);
+    border-bottom-left-radius: 10px;
+    border: 1px solid hsl(179, 62%, 33%);
+    flex: 1;
+}
+.smallSection2{
+    width: 50%;
+    padding: 30px;
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-right-radius: 10px;
+    border: 1px solid hsl(179, 62%, 43%);
+}
+
+.smallHeding{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.price{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+button{
+    display: block;
+    width: 100%;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+}
+.attribution{
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    main{
+        font-size: 10px;
+        box-shadow: none;
+        margin-top: 60px;
+    }
+    .bigSection{
+        font-size: 10px;
+        padding: 20px;
+        width: 80%;
+    }
+    .bsHeading{
+        font-size: 16px;
+    }
+    .bsSubeading{
+        font-size: 14px;
+    }
+    .bsData{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .smallSection{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        width: 80%;
+    }
+    .smallSection1{
+        width: 100%;
+        border-radius: 0%;
+        padding: 20px;
+    }
+    .smallSection2{
+        width: 100%;
+        border-bottom-left-radius:10px ;
+        padding: 20px;
+        margin-bottom: 60px;
+    }
+    button{
+        font-size: 14px;
+    }
+    .smallHeding{
+        font-size: 14px;
+    }
+    .smallData{
+        line-height: 20px;
+        padding-right: 60px;
+    }
+    .attribution{
+        font-size: 16px;
+        text-align: center;
+    }
+}
